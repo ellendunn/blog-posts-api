@@ -1,0 +1,24 @@
+{
+  "name": "blog-posts-api",
+  "version": "1.0.0",
+  "description": "find blog posts",
+  "main": "server.js",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellendunn/blog-posts-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellendunn/blog-posts-api/issues"
+  },
+  "homepage": "https://github.com/ellendunn/blog-posts-api#readme"
+}

@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: dVW5uiCchLDXxGdVo1XR8ykURY+v7gQgyRHdrsLJc52ZN+6qCKQ4Wo77X6PNFFhxKjoZjeJO+ZPDTY8q6WT3ZnRjTSRp1kpBZynXMWnzXBPVb0vZ/Z8bT2Sjc1zP+iuWeh2OS9SO6J2zyC9ozpd96XSfoTQ+vNnWuWDT7zi0rMx+WR4HA+OcdUl3WcDG72WEu4LUpzUFCw+bbXRJjjRUpG7qjhjsWRk6fiR9tnMHiQVX1eI9zDVhkNNZZXPDX7ngmMU3RWl33SDhxwoG6golc6LR+180EW1F8YoaLGhhG/7gcmH/WY2z3Dd5A6XfW/ni+AFXdItkFTRsK1OHSQRe/2t0pR9iXFNt8CsXOBgL0mlkprDSSfOUov2q7WsuHmvMv11U5WDPwb/SxMnPiRW0trAYp9scNenNZawes65q9NeXQm3BQ7BzuTG8Os/hzMz6GcaPx3mdUmsDeq5Ob+Iv/hFzn82P6Cgiq+32BBxntEX8N/YoR1aFZzYAkT7OS8V7zvf9kYGAXd2xfHFCzlhmrB2PAtAl02HPuKt2moKFOPxIvVvd+FimJqKX5NcV69SY5v+MEtjT4f4x0lTtDMt60yrd32xz6nKNi57mWqwTPwq0OkMdaCyEeCiTTOtk8KgORA1AFsLLNuTt6zpCpryg+0yEE5WpBdzeDBEbF1ib9dw=
+  app: aqueous-retreat-76096
+  on:
+    repo: ellendunn/blog-posts-api

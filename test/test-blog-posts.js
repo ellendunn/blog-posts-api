@@ -48,9 +48,9 @@ describe ("BlogPosts", function() {
 		.then(function(res){
 			expect(res).to.have.status(201);
 			expect(res).to.be.json;
-			expect(res.body).to.include.keys["id", "title", "content", "author", "publishDate"];
+			expect(res.body).to.include.keys("id", "title", "content", "author", "publishDate");
 			expect(res.body.id).to.not.equal(null);
-			expect(res.body).to.deep.equa;(
+			expect(res.body).to.deep.equal(
 				Object.assign(newPost, {id:res.body.id})
 			)
 		});
@@ -76,7 +76,7 @@ describe ("BlogPosts", function() {
 			})
 			.then(function(res){
 				expect(res).to.have.status(204);
-				expect(res).to.be.json;
+				// expect(res).to.be.json;
 				expect(res.body).to.be.a("object");
 			})
 		);
